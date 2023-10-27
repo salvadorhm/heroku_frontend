@@ -1,1 +1,1 @@
-web: ttwistd -n web --path httpdocs
+web: twistd -n web --path httpdocs
