@@ -1,1 +1,1 @@
-web: twistd -n web --path httpdocs
+web: python3 -m http.server $PORT
