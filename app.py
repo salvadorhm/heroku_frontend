@@ -8,6 +8,6 @@ def index():
     message = "Hello, World"
     return render_template('index.html', message=message)
 
-@app.route("/buscar")
+@app.route("/buscar",methods=["GET","POST"])
 def buscar():
     return render_template('buscar.html')
